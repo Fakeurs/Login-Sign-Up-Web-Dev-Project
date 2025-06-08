@@ -3,10 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Background size</title>
+    <title>Login and Sign up Form Project</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <div class="login-section">
+        <div class="header"><h2>Login</h2></div>
+        <form action="" method="post" class="form-wrapper">
+          <div class="username-wrapper credentials-wrapper">
+            <input class="username" type="text" placeholder="Username" />
+            <img src="images/user.png" alt="username" />
+          </div>
+          <div class="password-wrapper credentials-wrapper">
+            <input type="password" placeholder="Password" />
+            <img src="images/padlock.png" alt="password" />
+          </div>
+          <div class="submit-btn">
+            <span class="login-btn" type="submit">Login</span>
+          </div>
+        </form>
+        <p>
+          Don't have an account yet? <a class="sign-up" href="#">Sign Up</a>
+        </p>
+      </div>
+      <div class="welcome">
+        <h1>Welcome Back!</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia,
+          quos.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
